@@ -5,23 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Pedro Pedro Pe</title>
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <script>
-      function PlayMusic() {
-        var play = document.getElementById("music");
-        play.play();
-      }
 
-      PlayMusic();
-    </script>
     <div class="wrapper">
+      <div class="container">
       <img class="pedro" src="https://github.com/dimobs/pedropedro/blob/main/martin.jpg?raw=true" alt="Marty" />
     </div>
-    <audio id="music" controls="controls"  autoplay>
-      <source
+  </div>
+    <audio class="fun_music" id="music" controls="controls" loop>
+      <source 
         src="https://github.com/dimobs/pedropedro/blob/main/carr%C3%A0---pedro-pedro-made-with-Voicemod.mp3?raw=true"
-        type="audio/ogg"
+        type="audio/mp3"
       />
     </audio>
   </body>

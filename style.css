@@ -4,6 +4,10 @@ body {
     height: 80vh;
     width: auto;
 }
+.container {
+    box-shadow: 30px 30px rgb(125, 119, 119), -1em 0 .4em rgb(2, 51, 2);
+}
+
 .wrapper {
     /* overflow: hidden;    */
     border-radius: 100%;
